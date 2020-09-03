@@ -1,5 +1,28 @@
+body {
+  max-width: 1310px;
+}
+
+.navbar {
+  background-color: #f72210;
+}
+
+.navbar svg {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 23px;
+}
+
 .nav-offer {
   border-radius: 25px;
-  font-size: 0.9em;
+  font-size: 12px;
   font-weight: bold;
+  background-color: #ffe400;
+  padding: 2px 16px;
+}
+
+.nav-offer p {
+  margin: 0;
+}
+
+.logo-div {
+  width: 125px;
 }
