@@ -1,5 +1,6 @@
-body {
+.container {
   max-width: 1310px;
+  padding: 0;
 }
 
 .navbar {
@@ -23,6 +24,11 @@ body {
   margin: 0;
 }
 
-.logo-div {
+.logo-img {
   width: 125px;
+}
+
+.navbar-toggler-icon svg {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 33px;
 }
