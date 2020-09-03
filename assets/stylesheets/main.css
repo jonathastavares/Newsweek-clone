@@ -23,6 +23,12 @@
   font-size: 23px;
 }
 
+.svg-dropdown {
+  color: black!important;
+  border: none;
+  outline: none;
+}
+
 .navbar button {
   padding: 0;
 }
@@ -40,8 +46,32 @@
 }
 
 .navbar-collapse {
+  flex-grow: 0;
+  display: flex;
+}
+
+.nav-col-container {
   width: 220px;
   background-color: #fff;
-  flex-grow: 0;
-  flex-basis: 35%;
+}
+
+.form-control {
+  width: 85%;
+  border: 0;
+}
+
+.nav-link {
+  color: black;
+  font-weight: bold;
+}
+
+.navbar-nav {
+  padding: 12px;
+  border-bottom: 1px solid #dedede;
+}
+
+.trending-li {
+  color: rgb(128, 127, 132);
+  font-weight: 500;
+  line-height: 1;
 }
