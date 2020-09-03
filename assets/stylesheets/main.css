@@ -5,11 +5,26 @@
 
 .navbar {
   background-color: #f72210;
+  padding: 10px 8px;
+}
+
+.navbar-brand {
+  padding: 0;
+  margin: 0;
+  font-size: 0;
+}
+
+.logo-img {
+  width: 125px;
 }
 
 .navbar svg {
   color: rgba(255, 255, 255, 0.75);
   font-size: 23px;
+}
+
+.navbar button {
+  padding: 0;
 }
 
 .nav-offer {
@@ -24,11 +39,9 @@
   margin: 0;
 }
 
-.logo-img {
-  width: 125px;
-}
-
-.navbar-toggler-icon svg {
-  color: rgba(255, 255, 255, 0.75);
-  font-size: 33px;
+.navbar-collapse {
+  width: 220px;
+  background-color: #fff;
+  flex-grow: 0;
+  flex-basis: 35%;
 }
