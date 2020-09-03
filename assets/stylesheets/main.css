@@ -1,3 +1,7 @@
+body {
+  background-color: rgb(244, 245, 246);
+}
+
 .container {
   max-width: 1310px;
   padding: 0;
@@ -81,5 +85,30 @@
 }
 
 .row div {
-  border: 2px solid red;
+  padding: 0;
+}
+
+.card-body {
+  padding: 10px 0;
+}
+
+.card-text {
+  font-size: 0.8em;
+}
+
+.article-section {
+  background-color: white;
+}
+
+.article-section h4 {
+  color: rgba(3, 3, 3, 0.4);
+  font-size: 1em;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.card-body h4 {
+  font-size: 1.4em;
+  color: black;
+  font-weight: bold;
 }
