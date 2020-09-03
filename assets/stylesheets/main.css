@@ -24,7 +24,7 @@
 }
 
 .svg-dropdown {
-  color: black!important;
+  color: black !important;
   border: none;
   outline: none;
 }
@@ -74,4 +74,12 @@
   color: rgb(128, 127, 132);
   font-weight: 500;
   line-height: 1;
+}
+
+.row {
+  margin: 0;
+}
+
+.row div {
+  border: 2px solid red;
 }
