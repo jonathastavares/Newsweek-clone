@@ -114,7 +114,7 @@ a {
   left: 0;
 }
 
-.wrapper .category a {
+.category a {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 17px;
@@ -194,4 +194,56 @@ a {
 .debate-wrapper {
   border-top: 4px solid #d9d9d9;
   border-bottom: 4px solid #d9d9d9;
+}
+
+/* ---------------- Opinion's Section ------------------ */
+
+.author {
+  font-size: 14px;
+}
+
+.opinion-article {
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.wrapper h5 {
+  font-size: 17px;
+  line-height: 20px;
+}
+
+.opinion-subfeature {
+  font-size: 14px;
+  line-height: 21px;
+  color: #555;
+  text-transform: uppercase;
+  margin-top: 4px;
+}
+
+/* ---------------- Ad's Section ------------------ */
+
+.ad-category a {
+  color: #3581f4;
+}
+
+.ad-tittle {
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.ad-text,
+.ms-description {
+  color: #333;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* ---------------- More Stories's Section ------------------ */
+
+.more-stories-article {
+  border-top: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
+}
+.ms-img {
+  height: 95px;
+  width: 95px;
 }
