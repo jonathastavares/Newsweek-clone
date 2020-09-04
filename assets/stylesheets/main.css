@@ -226,7 +226,7 @@ a {
   color: #3581f4;
 }
 
-.ad-tittle {
+.card-body .ad-tittle {
   font-size: 20px;
   line-height: 20px;
 }
@@ -266,4 +266,43 @@ a {
 .culture-category a {
   color: #333;
   font-size: 13px;
+}
+
+.wrapper .cultureAndTravel-category {
+  padding: 5px 15px;
+}
+
+.row .sign-up-div {
+  max-width: 300px;
+  margin: 0 auto 30px;
+  border: 1px solid #e5e5e5;
+  background-color: #f4f5f6;
+  padding: 20px;
+}
+
+.icon-title-container p {
+  font-size: 19px;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1;
+  margin: 0;
+}
+
+.icon-n {
+  flex: none;
+  display: block;
+  width: 29px;
+  height: 28px;
+  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain
+    no-repeat #f72210;
+  margin-right: 10px;
+}
+
+.sign-up-div input {
+  width: 100%;
+}
+
+.sign-up-btn {
+  background-color: #f61602;
+  width: 100%;
 }
