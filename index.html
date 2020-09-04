@@ -7,6 +7,10 @@
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap"
+      rel="stylesheet"
+    />
+    <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
@@ -210,15 +214,19 @@
       </header>
       <main>
         <div class="row">
+          <!--------- Column 1 ------------->
           <div class="col-sm-12 col-md-0 d-sm-none">
             <section class="article-section top-story p-3 shadow-sm">
               <h4>TOP STORY</h4>
               <article class="card">
-                <img
-                  src="./assets/images/Top-story/vote-sign.jpg"
-                  class="card-img-top"
-                  alt="Lebanon port"
-                />
+                <div class="wrapper">
+                  <div class="category"><a href="#">U.S.</a></div>
+                  <img
+                    src="./assets/images/Top-story/vote-sign.jpg"
+                    class="card-img-top"
+                    alt="Lebanon port"
+                  />
+                </div>
                 <div class="card-body">
                   <h4 class="card-title">
                     Groups Boycotting Facebook Say Company 'Should Be Doing Much
@@ -236,12 +244,15 @@
               class="article-section featured-stories p-3 mt-3 shadow-sm"
             >
               <h4>FEATURED STORIES</h4>
-              <article class="card mt-3">
-                <img
-                  src="./assets/images/Featured-stories/lebanon-port.webp"
-                  class="card-img-top"
-                  alt="Lebanon port"
-                />
+              <article class="card mt-4">
+                <div class="wrapper">
+                  <div class="category"><a href="#">World</a></div>
+                  <img
+                    src="./assets/images/Featured-stories/lebanon-port.webp"
+                    class="card-img-top"
+                    alt="Lebanon port"
+                  />
+                </div>
                 <div class="card-body">
                   <h4 class="card-title">
                     Lebanon Army Finds Tons More of Explosive Ammonium at Beirut
@@ -255,12 +266,15 @@
                   </p>
                 </div>
               </article>
-              <article class="card mt-3">
-                <img
-                  src="./assets/images/Featured-stories/us-helicopter.webp"
-                  class="card-img-top"
-                  alt="Lebanon port"
-                />
+              <article class="card mt-4">
+                <div class="wrapper">
+                  <div class="category"><a href="#">U.S.</a></div>
+                  <img
+                    src="./assets/images/Featured-stories/us-helicopter.webp"
+                    class="card-img-top"
+                    alt="helicopter"
+                  />
+                </div>
                 <div class="card-body">
                   <h4 class="card-title">
                     U.S. Troops in Syria Stuck in 'Forgotten War' for Oil as
@@ -272,12 +286,15 @@
                   </p>
                 </div>
               </article>
-              <article class="card mt-3">
-                <img
-                  src="./assets/images/Featured-stories/justin-blake.webp"
-                  class="card-img-top"
-                  alt="Lebanon port"
-                />
+              <article class="card mt-4">
+                <div class="wrapper">
+                  <div class="category"><a href="#">U.S.</a></div>
+                  <img
+                    src="./assets/images/Featured-stories/justin-blake.webp"
+                    class="card-img-top"
+                    alt="Justin Blake"
+                  />
+                </div>
                 <div class="card-body">
                   <h4 class="card-title">
                     Jacob Blake's Uncle Condemns Bill Barr's 'Gaslighting' Over
@@ -291,12 +308,15 @@
                   </p>
                 </div>
               </article>
-              <article class="card mt-3">
-                <img
-                  src="./assets/images/Featured-stories/iran-protests.webp"
-                  class="card-img-top"
-                  alt="Lebanon port"
-                />
+              <article class="card mt-4">
+                <div class="wrapper">
+                  <div class="category"><a href="#">World</a></div>
+                  <img
+                    src="./assets/images/Featured-stories/iran-protests.webp"
+                    class="card-img-top"
+                    alt="Iran protests"
+                  />
+                </div>
                 <div class="card-body">
                   <h4 class="card-title">
                     Iran Protesters Killed, Tortured by Regime Officials, New
@@ -309,12 +329,15 @@
                   </p>
                 </div>
               </article>
-              <article class="card mt-3">
-                <img
-                  src="./assets/images/Featured-stories/elon-musk.webp"
-                  class="card-img-top"
-                  alt="Lebanon port"
-                />
+              <article class="card mt-4">
+                <div class="wrapper">
+                  <div class="category"><a href="#">Tech</a></div>
+                  <img
+                    src="./assets/images/Featured-stories/elon-musk.webp"
+                    class="card-img-top"
+                    alt="Elon Musk"
+                  />
+                </div>
                 <div class="card-body">
                   <h4 class="card-title">
                     Tesla: The Everything Bubble Embodied
@@ -326,10 +349,60 @@
                 </div>
               </article>
             </section>
-            <section
-              class="article-section debate p-3 mt-3 shadow-sm"
-            ></section>
+            <section class="article-section debate px-3 py-4 mt-3 shadow-sm">
+              <h4>The Debate</h4>
+              <div class="wrapper debate-wrapper py-3">
+                <article class="debate-article">
+                  <div class="img-div rounded float-left">
+                    <a href="#"
+                      ><img
+                        src="https://d.newsweek.com/en/full/1595774/gordon-chang.png?w=150&h=150&f=b09b792f02f0ce65c0441c6b8de296c7"
+                        alt="img"
+                    /></a>
+                  </div>
+                  <h5>
+                    <a class="font-weight-bold" href="#"
+                      >Avoid War, Defend America, Recognize Taiwan</a
+                    >
+                  </h5>
+                  <div>
+                    By
+                    <cite
+                      ><a class="font-weight-bold" href="#"
+                        >GORDON G. CHANG</a
+                      ></cite
+                    >
+                  </div>
+                </article>
+                <div class="decoration-container text-center w-100 my-3">
+                  <span class="decoration align-middle">VS</span>
+                </div>
+                <article class="debate-article">
+                  <div class="img-div rounded float-right">
+                    <a href="#"
+                      ><img
+                        src="https://d.newsweek.com/en/full/1629917/jerome-cohen.png?w=150&h=150&f=c6d2471c32707532188a670274ca9b53"
+                        alt="img"
+                    /></a>
+                  </div>
+                  <h5>
+                    <a class="font-weight-bold" href="#"
+                      >Don't Rush to Fully Normalize Relations With Taiwan</a
+                    >
+                  </h5>
+                  <div>
+                    By
+                    <cite
+                      ><a class="font-weight-bold" href="#"
+                        >JEROME A. COHEN</a
+                      ></cite
+                    >
+                  </div>
+                </article>
+              </div>
+            </section>
           </div>
+          <!-------------- Column 2 -------------->
           <div class="col-sm-12 col-md-5 col-lg d-none d-sm-block">
             <section>
               <h4>FEATURED STORIES</h4>
@@ -354,9 +427,11 @@
               </article>
             </section>
           </div>
+          <!------------- Column 3 -------------->
           <div class="col-sm-12 col-md-7 col-lg-5 d-none d-sm-block">
             2 of 3 (wider)
           </div>
+          <!--------------- Column 4 --------------->
           <div class="col-sm-12 col-md-12 col-lg">3 of 3</div>
         </div>
       </main>

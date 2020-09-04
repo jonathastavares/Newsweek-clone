@@ -1,11 +1,18 @@
 body {
   background-color: rgb(244, 245, 246);
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .container {
   max-width: 1310px;
   padding: 0;
 }
+
+a {
+  color: black;
+}
+
+/* ---------------------- NAVBAR --------------------- */
 
 .navbar {
   background-color: #f72210;
@@ -80,12 +87,38 @@ body {
   line-height: 1;
 }
 
+/* ---------------------- MAIN CONTENT ----------------- */
+
 .row {
   margin: 0;
 }
 
 .row div {
   padding: 0;
+}
+
+.card {
+  border: none;
+  border-radius: 0;
+}
+
+.wrapper {
+  position: relative;
+}
+
+.wrapper .category {
+  padding: 8px 15px 9px;
+  background-color: rgba(255, 255, 255, 0.9);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.wrapper .category a {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 17px;
+  color: #f72210;
 }
 
 .card-body {
@@ -111,4 +144,54 @@ body {
   font-size: 1.4em;
   color: black;
   font-weight: bold;
+}
+
+.img-div {
+  height: 75px;
+  width: 75px;
+}
+
+.img-div img {
+  width: 63px;
+  height: 63px;
+}
+
+.decoration {
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  color: #d6d6d6;
+  background-color: black;
+  border-radius: 50%;
+  position: relative;
+  z-index: 2;
+}
+
+.decoration-container::before {
+  content: "";
+  display: block;
+  background-color: #d9d9d9;
+  height: 1px;
+  position: absolute;
+  top: calc(50% - 2px);
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.decoration-container::after {
+  content: "";
+  display: block;
+  background-color: #d9d9d9;
+  height: 1px;
+  position: absolute;
+  top: calc(50% + 2px);
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.debate-wrapper {
+  border-top: 4px solid #d9d9d9;
+  border-bottom: 4px solid #d9d9d9;
 }
