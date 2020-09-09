@@ -349,6 +349,27 @@ a {
   font-size: 16px;
 }
 
+/* -------------------------- DIFFERENT ARTICLES --------------------- */
+
+.left-tittle {
+  color: #f72210;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.smaller-img {
+  height: 65px;
+  width: 95px;
+}
+
+.smaller-img-tittle {
+  height: 70px;
+}
+
+.img-tittle {
+  height: 95px;
+}
+
 /* -------------------------- SUBSCRIBE & NEWSLETTER --------------------- */
 .subscribe {
   min-height: 450px;
