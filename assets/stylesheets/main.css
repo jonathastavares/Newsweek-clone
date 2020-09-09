@@ -13,6 +13,11 @@ a {
   color: black;
 }
 
+.width-330 {
+  max-width: 330px;
+  margin: 0 auto;
+}
+
 /* ---------------------- NAVBAR --------------------- */
 
 .navbar {
@@ -452,8 +457,7 @@ a {
 }
 
 @media screen and (min-width: 768px) {
-  .row .itm-container {
-    max-width: 188px;
-    padding: 0 15px;
+  .dif-tittle {
+    font-size: 16px;
   }
 }
