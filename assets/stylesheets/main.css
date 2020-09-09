@@ -375,7 +375,8 @@ a {
   min-height: 450px;
 }
 
-.subscribe h4 {
+.subscribe h4,
+.newsletter h4 {
   color: #f72210;
   font-size: 16px;
   font-weight: bold;
@@ -411,6 +412,43 @@ a {
   left: 50%;
   transform: translate(-50%, 0);
   background-color: #f61602;
+}
+
+.sign-up-btn {
+  background-color: #f61602;
+}
+
+/* -------------------------- BOTTOM NAVBAR ------------------------ */
+
+.bottom-logo {
+  width: 240px;
+}
+
+.upper-div ul {
+  padding-inline-start: 8px;
+}
+
+.bottom-ul {
+  padding-inline-start: 0;
+}
+
+.color-666 {
+  color: #666;
+  font-size: 16px;
+  padding-right: 5px;
+}
+
+.editions-h5 {
+  font-weight: 900;
+}
+
+.right-div i {
+  font-size: 23px;
+  color: #666;
+}
+
+.bottom-rows li {
+  line-height: 1;
 }
 
 @media screen and (min-width: 768px) {
