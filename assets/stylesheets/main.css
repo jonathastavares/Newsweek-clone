@@ -1,7 +1,7 @@
 body {
   background-color: rgb(244, 245, 246);
   font-family: "Roboto Condensed", sans-serif;
-  padding-bottom: 100px;
+  /* padding-bottom: 100px; */
 }
 
 .container {
@@ -347,6 +347,49 @@ a {
 
 .in-the-magazine .itm-tittle2 {
   font-size: 16px;
+}
+
+/* -------------------------- SUBSCRIBE & NEWSLETTER --------------------- */
+.subscribe {
+  min-height: 450px;
+}
+
+.subscribe h4 {
+  color: #f72210;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.subscribe-content-container {
+  width: 90%;
+  height: 88%;
+  margin: 0 auto;
+  background-color: rgb(244, 245, 246);
+}
+
+.subscribe-img1 {
+  top: 30px;
+  left: calc(50% - (170px / 2) - 40px);
+}
+
+.subscribe-img2 {
+  top: 40px;
+  left: calc(50% - (170px / 2) + 40px);
+}
+
+.info {
+  top: 200px;
+}
+
+.info h3 {
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.info button {
+  left: 50%;
+  transform: translate(-50%, 0);
+  background-color: #f61602;
 }
 
 @media screen and (min-width: 768px) {
