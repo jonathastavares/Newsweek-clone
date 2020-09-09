@@ -456,8 +456,56 @@ a {
   line-height: 1;
 }
 
+.newsletter-img-div {
+  width: 48%;
+  max-width: 191px;
+  background-image: url(../images/newsletter-img.png);
+  background-size: cover;
+  background-position: center;
+}
+
 @media screen and (min-width: 768px) {
   .dif-tittle {
     font-size: 16px;
+  }
+
+  .subscribe,
+  .newsletter {
+    min-height: 375px;
+  }
+
+  .subscribe-content-container {
+    width: 96%;
+  }
+
+  .subscribe-img1 {
+    top: 30px;
+    left: calc(170px / 2 - 40px);
+  }
+
+  .subscribe-img2 {
+    top: 40px;
+    left: calc(170px / 2 + 40px);
+  }
+
+  .second-relative-div {
+    top: 40px;
+    width: 750px;
+  }
+
+  .info {
+    top: 25px;
+    left: calc(50% - (110px / 2));
+  }
+
+  .info h3,
+  .newsletter-text-div h5 {
+    font-size: 25px;
+    font-weight: 900;
+  }
+
+  .newsletter-wrapper {
+    height: 100%;
+    max-height: 314px;
   }
 }
