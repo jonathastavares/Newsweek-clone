@@ -1,7 +1,6 @@
 body {
   background-color: rgb(244, 245, 246);
   font-family: "Roboto Condensed", sans-serif;
-  /* padding-bottom: 100px; */
 }
 
 .container {
@@ -18,11 +17,28 @@ a {
   margin: 0 auto;
 }
 
+article:hover {
+  cursor: pointer;
+}
+
 /* ---------------------- NAVBAR --------------------- */
 
 .navbar {
   background-color: #f72210;
   padding: 10px 8px;
+  height: 52px;
+}
+
+.hide-div {
+  position: relative;
+  top: -790px;
+  z-index: 3;
+  transition: 0.3s ease-in;
+}
+
+.show-div {
+  top: 10px !important;
+  transition: 0.3s ease-in;
 }
 
 .navbar-brand {
@@ -249,6 +265,7 @@ a {
   border-top: 1px solid #d9d9d9;
   border-bottom: 1px solid #d9d9d9;
 }
+
 .ms-img {
   height: 95px;
   width: 95px;
@@ -465,6 +482,12 @@ a {
 }
 
 @media screen and (min-width: 768px) {
+  .sticky {
+    position: sticky;
+    bottom: 0;
+    align-self: flex-end;
+  }
+
   .dif-tittle {
     font-size: 16px;
   }
@@ -507,5 +530,23 @@ a {
   .newsletter-wrapper {
     height: 100%;
     max-height: 314px;
+  }
+
+  .line-height-4-margin-bottom {
+    line-height: 4;
+    margin-bottom: 0;
+  }
+
+  .right-div {
+    align-items: center;
+    justify-content: flex-end;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .sticky-lg {
+    position: sticky;
+    bottom: 0;
+    align-self: flex-end;
   }
 }

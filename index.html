@@ -54,6 +54,7 @@
               <p>LABOR DAY OFFER <i class="fas fa-angle-right"></i></p>
             </div>
             <button
+              id="navbar-toggler"
               class="navbar-toggler"
               type="button"
               data-toggle="collapse"
@@ -81,8 +82,8 @@
           </div>
 
           <div
-            class="collapse navbar-collapse justify-content-end"
-            id="navbarSupportedContent"
+            class="hide-div navbar-collapse justify-content-end"
+            id="navbarDiv"
           >
             <div class="nav-col-container">
               <form class="form-inline">
@@ -213,7 +214,7 @@
         </nav>
       </header>
       <main>
-        <div class="row">
+        <div class="row position-relative">
           <!--------- Column 1 ------------->
           <div class="col-sm-12 d-md-none">
             <section class="article-section top-story p-3 shadow-sm">
@@ -883,7 +884,7 @@
             </section>
           </div>
           <!------------- Column 3 -------------->
-          <div class="col-md-7 col-lg-5 d-none d-md-block">
+          <div class="col-md-7 col-lg-5 d-none d-md-block sticky">
             <section class="article-section top-story p-3 shadow-sm">
               <h4>TOP STORY</h4>
               <article class="card">
@@ -1292,10 +1293,10 @@
             </section>
           </div>
           <!--------------- Column 4 --------------->
-          <div class="col-md-12 col-lg">
+          <div class="col-md-12 col-lg sticky-lg">
             <!-- The Debate Section -->
             <section
-              class="article-section debate px-3 py-4 mt-3 shadow-sm d-none d-md-block"
+              class="article-section debate px-3 py-4 mt-xs-3 shadow-sm d-none d-md-block"
             >
               <h4>The Debate</h4>
               <div class="wrapper debate-wrapper py-3">
@@ -1350,7 +1351,7 @@
             </section>
             <!-- Opinion's Section -->
             <section
-              class="article-section px-3 py-4 mt-3 shadow-sm d-none d-md-block"
+              class="article-section px-3 py-4 mt-xs-3 shadow-sm d-none d-md-block"
             >
               <h4>OPINION</h4>
               <div class="wrapper py-3">
@@ -2324,7 +2325,7 @@
               <span class="icon-n"></span>
               <h4>EDITOR'S PICK</h4>
             </div>
-            <div class="row row-cols-md-2 row-cols-1">
+            <div class="row row-cols-md-2 row-cols-lg-4 row-cols-1">
               <div class="col px-md-2">
                 <article class="card mb-3">
                   <div class="wrapper">
@@ -2552,7 +2553,7 @@
               </article>
             </div>
             <div class="col px-md-2">
-              <article class="d-flex more-stories-article pt-3">
+              <article class="d-flex border-bottom py-3">
                 <div class="mr-3 h-100">
                   <a href="#"
                     ><img
@@ -2568,7 +2569,7 @@
                   >
                 </h5>
               </article>
-              <article class="d-flex more-stories-article pt-3">
+              <article class="d-flex border-bottom py-3">
                 <div class="mr-3 h-100">
                   <a href="#"
                     ><img
@@ -2584,7 +2585,7 @@
                   >
                 </h5>
               </article>
-              <article class="d-flex more-stories-article pt-3">
+              <article class="d-flex pt-3">
                 <div class="mr-3 h-100">
                   <a href="#"
                     ><img
@@ -2643,7 +2644,7 @@
               </article>
             </div>
             <div class="col px-md-2">
-              <article class="d-flex more-stories-article pt-3">
+              <article class="d-flex border-bottom py-3">
                 <div class="mr-3">
                   <a href="#"
                     ><img
@@ -2660,7 +2661,7 @@
                 </h5>
               </article>
 
-              <article class="d-flex more-stories-article pt-3">
+              <article class="d-flex border-bottom py-3">
                 <div class="mr-3">
                   <a href="#"
                     ><img
@@ -2675,7 +2676,7 @@
                   >
                 </h5>
               </article>
-              <article class="d-flex more-stories-article pt-3">
+              <article class="d-flex pt-3">
                 <div class="mr-3">
                   <a href="#"
                     ><img
@@ -2734,7 +2735,7 @@
               </article>
             </div>
             <div class="col px-md-2">
-              <article class="d-flex more-stories-article pt-3">
+              <article class="d-flex border-bottom py-3">
                 <div class="mr-3">
                   <a href="#"
                     ><img
@@ -2750,7 +2751,7 @@
                   >
                 </h5>
               </article>
-              <article class="d-flex more-stories-article pt-3">
+              <article class="d-flex border-bottom py-3">
                 <div class="mr-3">
                   <a href="#"
                     ><img
@@ -2766,7 +2767,7 @@
                   >
                 </h5>
               </article>
-              <article class="d-flex more-stories-article pt-3">
+              <article class="d-flex pt-3">
                 <div class="mr-3">
                   <a href="#"
                     ><img
@@ -2824,7 +2825,7 @@
               </article>
             </div>
             <div class="col px-md-2">
-              <article class="d-flex more-stories-article pt-3">
+              <article class="d-flex border-bottom py-3">
                 <div class="mr-3">
                   <a href="#"
                     ><img
@@ -2840,7 +2841,7 @@
                   >
                 </h5>
               </article>
-              <article class="d-flex more-stories-article pt-3">
+              <article class="d-flex border-bottom py-3">
                 <div class="mr-3">
                   <a href="#"
                     ><img
@@ -2856,7 +2857,7 @@
                   >
                 </h5>
               </article>
-              <article class="d-flex more-stories-article pt-3">
+              <article class="d-flex pt-3">
                 <div class="mr-3">
                   <a href="#"
                     ><img
@@ -2915,7 +2916,7 @@
               </article>
             </div>
             <div class="col px-md-2">
-              <article class="d-flex more-stories-article pt-3">
+              <article class="d-flex border-bottom py-3">
                 <div class="mr-3">
                   <a href="#"
                     ><img
@@ -2931,7 +2932,7 @@
                   >
                 </h5>
               </article>
-              <article class="d-flex more-stories-article pt-3">
+              <article class="d-flex border-bottom py-3">
                 <div class="mr-3">
                   <a href="#"
                     ><img
@@ -2946,7 +2947,7 @@
                   >
                 </h5>
               </article>
-              <article class="d-flex more-stories-article pt-3">
+              <article class="d-flex pt-3">
                 <div class="mr-3">
                   <a href="#"
                     ><img
@@ -3005,7 +3006,7 @@
               </article>
             </div>
             <div class="col px-md-2">
-              <article class="d-flex more-stories-article pt-3">
+              <article class="d-flex border-bottom py-3">
                 <div class="mr-3">
                   <a href="#"
                     ><img
@@ -3021,7 +3022,7 @@
                   >
                 </h5>
               </article>
-              <article class="d-flex more-stories-article pt-3">
+              <article class="d-flex border-bottom py-3">
                 <div class="mr-3">
                   <a href="#"
                     ><img
@@ -3037,7 +3038,7 @@
                   >
                 </h5>
               </article>
-              <article class="d-flex more-stories-article pt-3">
+              <article class="d-flex pt-3">
                 <div class="mr-3">
                   <a href="#"
                     ><img
@@ -3125,8 +3126,8 @@
           </div>
         </div>
         <div class="bottom-rows p-3 mt-3 bg-white">
-          <div class="row row-cols-1 row-cols-md-2 border-bottom">
-            <div class="left-div">
+          <div class="row row-cols-1 row-cols-md-2 border-bottom pt-3">
+            <div class="left-div d-md-flex">
               <a href="#">
                 <img
                   src="./assets/images/red-newsweek-logo.png"
@@ -3134,14 +3135,20 @@
                   class="bottom-logo"
                 />
               </a>
-              <p class="color-666 my-2 text-uppercase">&copy; 2020 Newsweek</p>
+              <p
+                class="color-666 my-xs-2 ml-md-3 line-height-4-margin-bottom text-uppercase"
+              >
+                &copy; 2020 Newsweek
+              </p>
             </div>
-            <div class="right-div pb-2">
-              <a href="#"><i class="mr-2 fab fa-facebook-square"></i></a>
-              <a href="#"><i class="mr-2 fab fa-twitter"></i></a>
-              <a href="#"><i class="mr-2 fab fa-instagram"></i></a>
-              <a href="#"><i class="mr-2 fab fa-tumblr"></i></a>
-              <a href="#"><i class="mr-2 fab fa-linkedin-in"></i></a>
+            <div class="right-div d-flex pb-xs-2">
+              <a href="#"
+                ><i class="mr-xs-2 mr-md-3 fab fa-facebook-square"></i
+              ></a>
+              <a href="#"><i class="mr-xs-2 mr-md-3 fab fa-twitter"></i></a>
+              <a href="#"><i class="mr-xs-2 mr-md-3 fab fa-instagram"></i></a>
+              <a href="#"><i class="mr-xs-2 mr-md-3 fab fa-tumblr"></i></a>
+              <a href="#"><i class="mr-xs-2 mr-md-3 fab fa-linkedin-in"></i></a>
             </div>
           </div>
           <div class="row row-cols-1">
@@ -3231,5 +3238,6 @@
       integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
       crossorigin="anonymous"
     ></script>
+    <script src="./assets/scripts/script.js"></script>
   </body>
 </html>
