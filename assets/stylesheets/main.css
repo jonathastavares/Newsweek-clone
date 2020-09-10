@@ -29,6 +29,18 @@ article:hover {
   height: 52px;
 }
 
+.right-decoration::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  content: "";
+  display: block;
+  width: 66px;
+  background-color: #f72210;
+  border-left: 12px solid white;
+  border-top: 13px solid #f72210;
+}
+
 .hide-div {
   position: relative;
   top: -790px;
@@ -72,6 +84,7 @@ article:hover {
   font-weight: bold;
   background-color: #ffe400;
   padding: 2px 16px;
+  max-height: 23px;
 }
 
 .nav-offer p {
@@ -461,7 +474,7 @@ article:hover {
 
 .color-666 {
   color: #666;
-  font-size: 16px;
+  font-size: 15px;
   padding-right: 5px;
 }
 
@@ -549,6 +562,14 @@ article:hover {
 }
 
 @media screen and (min-width: 1024px) {
+  .trending-div ul {
+    padding-inline-start: 0;
+  }
+
+  .first-row {
+    border-top: 1px solid #dee2e6;
+  }
+
   .sticky-lg {
     position: sticky;
     bottom: 0;
@@ -576,6 +597,14 @@ article:hover {
   .lg-input {
     height: 40px;
     border: 0;
-    width: 80px;
+    width: 65px;
+  }
+
+  .trending-div h3 {
+    font-size: 18px;
+  }
+
+  .trending-li {
+    line-height: 2;
   }
 }
