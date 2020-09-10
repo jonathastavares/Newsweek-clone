@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Newsweek</title>
+    <title>Newsweek - News, Analysis, Politics, Business, Technology</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
@@ -23,11 +23,12 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="assets/stylesheets/main.css" />
+    <link rel="shortcut icon" href="./assets/images/newsweek-icon.ico" />
   </head>
 
   <body>
     <div class="container">
-      <header>
+      <header class="header-sticky">
         <nav
           class="d-flex navbar align-items-center justify-content-between p-0"
         >
@@ -47,7 +48,7 @@
               <p class="text-white px-1 mb-0 mt-2">Thu, Sep 10, 2020</p>
             </div>
           </div>
-          <a class="navbar-brand ml-2 pt-3" href="#">
+          <a class="navbar-brand m-0 ml-2 pt-3" href="#">
             <img
               class="logo-img"
               src="assets/images/Newsweek_Logo.svg.png"
@@ -68,8 +69,10 @@
                 d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"
               />
             </svg>
-            <div class="nav-offer">
-              <p>LABOR DAY OFFER <i class="fas fa-angle-right"></i></p>
+            <div class="nav-offer font-weight-bold">
+              <p class="m-0">
+                LABOR DAY OFFER <i class="fas fa-angle-right"></i>
+              </p>
             </div>
             <button
               id="navbar-toggler"
@@ -103,39 +106,77 @@
             >
               <ul class="d-flex lg-list p-0 m-0">
                 <li class="nav-item active">
-                  <a class="nav-link px-2 pl-2 border-right" href="#">U.S.</a>
+                  <a
+                    class="nav-link font-weight-bold px-2 pl-2 border-right"
+                    href="#"
+                    >U.S.</a
+                  >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link px-2 border-right" href="#">World</a>
+                  <a
+                    class="nav-link font-weight-bold px-2 border-right"
+                    href="#"
+                    >World</a
+                  >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link px-2 border-right" href="#">Business</a>
+                  <a
+                    class="nav-link font-weight-bold px-2 border-right"
+                    href="#"
+                    >Business</a
+                  >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link px-2 border-right" href="#"
+                  <a
+                    class="nav-link font-weight-bold px-2 border-right"
+                    href="#"
                     >Tech & Science</a
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link px-2 border-right" href="#">Culture</a>
+                  <a
+                    class="nav-link font-weight-bold px-2 border-right"
+                    href="#"
+                    >Culture</a
+                  >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link px-2 border-right" href="#">Newsgeek</a>
+                  <a
+                    class="nav-link font-weight-bold px-2 border-right"
+                    href="#"
+                    >Newsgeek</a
+                  >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link px-2 border-right" href="#">Sports</a>
+                  <a
+                    class="nav-link font-weight-bold px-2 border-right"
+                    href="#"
+                    >Sports</a
+                  >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link px-2 border-right" href="#">Health</a>
+                  <a
+                    class="nav-link font-weight-bold px-2 border-right"
+                    href="#"
+                    >Health</a
+                  >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link px-2 border-right" href="#">The Debate</a>
+                  <a
+                    class="nav-link font-weight-bold px-2 border-right"
+                    href="#"
+                    >The Debate</a
+                  >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link px-2 border-right" href="#">Vantage</a>
+                  <a
+                    class="nav-link font-weight-bold px-2 border-right"
+                    href="#"
+                    >Vantage</a
+                  >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link px-2" href="#">Weather</a>
+                  <a class="nav-link font-weight-bold px-2" href="#">Weather</a>
                 </li>
               </ul>
               <input class="lg-input" placeholder="Search" type="search" />
@@ -145,19 +186,29 @@
               <h3 class="m-0 p-3 text-uppercase font-weight-bold">Trending</h3>
               <ul class="d-flex lg-list m-0 align-items-center">
                 <li class="nav-item">
-                  <a class="trending-li nav-link" href="#">Donald Trump</a>
+                  <a class="trending-li nav-link font-weight-bold" href="#"
+                    >Donald Trump</a
+                  >
                 </li>
                 <li class="nav-item">
-                  <a class="trending-li nav-link" href="#">Joe Biden</a>
+                  <a class="trending-li nav-link font-weight-bold" href="#"
+                    >Joe Biden</a
+                  >
                 </li>
                 <li class="nav-item">
-                  <a class="trending-li nav-link" href="#">China</a>
+                  <a class="trending-li nav-link font-weight-bold" href="#"
+                    >China</a
+                  >
                 </li>
                 <li class="nav-item">
-                  <a class="trending-li nav-link" href="#">Coronavirus</a>
+                  <a class="trending-li nav-link font-weight-bold" href="#"
+                    >Coronavirus</a
+                  >
                 </li>
                 <li class="nav-item">
-                  <a class="trending-li nav-link" href="#">2020 Election</a>
+                  <a class="trending-li nav-link font-weight-bold" href="#"
+                    >2020 Election</a
+                  >
                 </li>
               </ul>
             </div>
@@ -196,58 +247,80 @@
               </form>
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                  <a class="nav-link d-flex justify-content-between" href="#"
+                  <a
+                    class="nav-link font-weight-bold d-flex justify-content-between"
+                    href="#"
                     >U.S. <i class="fas fa-angle-right"></i
                     ><span class="sr-only">(current)</span></a
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link d-flex justify-content-between" href="#"
+                  <a
+                    class="nav-link font-weight-bold d-flex justify-content-between"
+                    href="#"
                     >World <i class="fas fa-angle-right"></i
                   ></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link d-flex justify-content-between" href="#"
+                  <a
+                    class="nav-link font-weight-bold d-flex justify-content-between"
+                    href="#"
                     >Business <i class="fas fa-angle-right"></i
                   ></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link d-flex justify-content-between" href="#"
+                  <a
+                    class="nav-link font-weight-bold d-flex justify-content-between"
+                    href="#"
                     >Tech & Science <i class="fas fa-angle-right"></i
                   ></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link d-flex justify-content-between" href="#"
+                  <a
+                    class="nav-link font-weight-bold d-flex justify-content-between"
+                    href="#"
                     >Culture <i class="fas fa-angle-right"></i
                   ></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link d-flex justify-content-between" href="#"
+                  <a
+                    class="nav-link font-weight-bold d-flex justify-content-between"
+                    href="#"
                     >Newsgeek <i class="fas fa-angle-right"></i
                   ></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link d-flex justify-content-between" href="#"
+                  <a
+                    class="nav-link font-weight-bold d-flex justify-content-between"
+                    href="#"
                     >Sports <i class="fas fa-angle-right"></i
                   ></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link d-flex justify-content-between" href="#"
+                  <a
+                    class="nav-link font-weight-bold d-flex justify-content-between"
+                    href="#"
                     >Health <i class="fas fa-angle-right"></i
                   ></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link d-flex justify-content-between" href="#"
+                  <a
+                    class="nav-link font-weight-bold d-flex justify-content-between"
+                    href="#"
                     >The Debate <i class="fas fa-angle-right"></i
                   ></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link d-flex justify-content-between" href="#"
+                  <a
+                    class="nav-link font-weight-bold d-flex justify-content-between"
+                    href="#"
                     >Vantage <i class="fas fa-angle-right"></i
                   ></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link d-flex justify-content-between" href="#"
+                  <a
+                    class="nav-link font-weight-bold d-flex justify-content-between"
+                    href="#"
                     >Weather <i class="fas fa-angle-right"></i
                   ></a>
                 </li>
@@ -256,35 +329,35 @@
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
                   <a
-                    class="trending-li nav-link d-flex justify-content-between"
+                    class="trending-li nav-link font-weight-bold d-flex justify-content-between"
                     href="#"
                     >Donald Trump</a
                   >
                 </li>
                 <li class="nav-item">
                   <a
-                    class="trending-li nav-link d-flex justify-content-between"
+                    class="trending-li nav-link font-weight-bold d-flex justify-content-between"
                     href="#"
                     >Joe Biden</a
                   >
                 </li>
                 <li class="nav-item">
                   <a
-                    class="trending-li nav-link d-flex justify-content-between"
+                    class="trending-li nav-link font-weight-bold d-flex justify-content-between"
                     href="#"
                     >China</a
                   >
                 </li>
                 <li class="nav-item">
                   <a
-                    class="trending-li nav-link d-flex justify-content-between"
+                    class="trending-li nav-link font-weight-bold d-flex justify-content-between"
                     href="#"
                     >Coronavirus</a
                   >
                 </li>
                 <li class="nav-item">
                   <a
-                    class="trending-li nav-link d-flex justify-content-between"
+                    class="trending-li nav-link font-weight-bold d-flex justify-content-between"
                     href="#"
                     >2020 Election</a
                   >
@@ -296,7 +369,7 @@
       </header>
 
       <main>
-        <div class="first-row row position-relative">
+        <div class="first-row row m-0 position-relative">
           <!-- Column 1 -->
           <div class="col-sm-12 d-md-none">
             <section class="article-section top-story p-3 shadow-sm">
@@ -311,7 +384,7 @@
                   />
                 </div>
                 <div class="card-body">
-                  <h4 class="card-title">
+                  <h4 class="card-title font-weight-bold">
                     Groups Boycotting Facebook Say Company 'Should Be Doing Much
                     More'
                   </h4>
@@ -337,7 +410,7 @@
                   />
                 </div>
                 <div class="card-body">
-                  <h4 class="card-title">
+                  <h4 class="card-title font-weight-bold">
                     Lebanon Army Finds Tons More of Explosive Ammonium at Beirut
                     Port
                   </h4>
@@ -359,7 +432,7 @@
                   />
                 </div>
                 <div class="card-body">
-                  <h4 class="card-title">
+                  <h4 class="card-title font-weight-bold">
                     U.S. Troops in Syria Stuck in 'Forgotten War' for Oil as
                     Russia Advances
                   </h4>
@@ -379,7 +452,7 @@
                   />
                 </div>
                 <div class="card-body">
-                  <h4 class="card-title">
+                  <h4 class="card-title font-weight-bold">
                     Jacob Blake's Uncle Condemns Bill Barr's 'Gaslighting' Over
                     Police Shooting
                   </h4>
@@ -401,7 +474,7 @@
                   />
                 </div>
                 <div class="card-body">
-                  <h4 class="card-title">
+                  <h4 class="card-title font-weight-bold">
                     Iran Protesters Killed, Tortured by Regime Officials, New
                     Report Says
                   </h4>
@@ -422,7 +495,7 @@
                   />
                 </div>
                 <div class="card-body">
-                  <h4 class="card-title">
+                  <h4 class="card-title font-weight-bold">
                     Tesla: The Everything Bubble Embodied
                   </h4>
                   <p class="card-text">
@@ -654,7 +727,9 @@
                   />
                 </div>
                 <div class="card-body border p-3">
-                  <h4 class="card-title ad-tittle">Best Online Shops 2021</h4>
+                  <h4 class="font-weight-bold card-title ad-tittle">
+                    Best Online Shops 2021
+                  </h4>
                   <p class="card-text ad-text">
                     Newsweek and Statista are recognizing 1,000 shops across 39
                     categories in eight groups.
@@ -673,7 +748,7 @@
                   />
                 </div>
                 <div class="card-body border p-3">
-                  <h4 class="card-title ad-tittle">
+                  <h4 class="font-weight-bold card-title ad-tittle">
                     America's Best Physical Rehabilitation Centers 2020
                   </h4>
                   <p class="card-text ad-text">
@@ -695,7 +770,7 @@
                   />
                 </div>
                 <div class="card-body border p-3">
-                  <h4 class="card-title ad-tittle">
+                  <h4 class="font-weight-bold card-title ad-tittle">
                     What Brands do You Trust the Most?
                   </h4>
                   <p class="card-text ad-text">
@@ -716,7 +791,7 @@
                   />
                 </div>
                 <div class="card-body border p-3">
-                  <h4 class="card-title ad-tittle">
+                  <h4 class="font-weight-bold card-title ad-tittle">
                     Best Maternity Hospitals 2020
                   </h4>
                   <p class="card-text ad-text">
@@ -735,7 +810,7 @@
                   />
                 </div>
                 <div class="card-body border p-3">
-                  <h4 class="card-title ad-tittle">
+                  <h4 class="font-weight-bold card-title ad-tittle">
                     Newsweek AMPLIFY Launches Strategic Partnership Solutions
                     for Brands
                   </h4>
@@ -763,7 +838,7 @@
                   />
                 </div>
                 <div class="card-body">
-                  <h4 class="card-title">
+                  <h4 class="font-weight-bold card-title">
                     Lebanon Army Finds Tons More of Explosive Ammonium at Beirut
                     Port
                   </h4>
@@ -785,7 +860,7 @@
                   />
                 </div>
                 <div class="card-body">
-                  <h4 class="card-title">
+                  <h4 class="font-weight-bold card-title">
                     U.S. Troops in Syria Stuck in 'Forgotten War' for Oil as
                     Russia Advances
                   </h4>
@@ -805,7 +880,7 @@
                   />
                 </div>
                 <div class="card-body">
-                  <h4 class="card-title">
+                  <h4 class="font-weight-bold card-title">
                     Jacob Blake's Uncle Condemns Bill Barr's 'Gaslighting' Over
                     Police Shooting
                   </h4>
@@ -827,7 +902,7 @@
                   />
                 </div>
                 <div class="card-body">
-                  <h4 class="card-title">
+                  <h4 class="font-weight-bold card-title">
                     Iran Protesters Killed, Tortured by Regime Officials, New
                     Report Says
                   </h4>
@@ -848,7 +923,7 @@
                   />
                 </div>
                 <div class="card-body">
-                  <h4 class="card-title">
+                  <h4 class="font-weight-bold card-title">
                     Tesla: The Everything Bubble Embodied
                   </h4>
                   <p class="card-text">
@@ -871,7 +946,9 @@
                   />
                 </div>
                 <div class="card-body border p-3">
-                  <h4 class="card-title ad-tittle">Best Online Shops 2021</h4>
+                  <h4 class="font-weight-bold card-title ad-tittle">
+                    Best Online Shops 2021
+                  </h4>
                   <p class="card-text ad-text">
                     Newsweek and Statista are recognizing 1,000 shops across 39
                     categories in eight groups.
@@ -890,7 +967,7 @@
                   />
                 </div>
                 <div class="card-body border p-3">
-                  <h4 class="card-title ad-tittle">
+                  <h4 class="font-weight-bold card-title ad-tittle">
                     America's Best Physical Rehabilitation Centers 2020
                   </h4>
                   <p class="card-text ad-text">
@@ -912,7 +989,7 @@
                   />
                 </div>
                 <div class="card-body border p-3">
-                  <h4 class="card-title ad-tittle">
+                  <h4 class="font-weight-bold card-title ad-tittle">
                     What Brands do You Trust the Most?
                   </h4>
                   <p class="card-text ad-text">
@@ -933,7 +1010,7 @@
                   />
                 </div>
                 <div class="card-body border p-3">
-                  <h4 class="card-title ad-tittle">
+                  <h4 class="font-weight-bold card-title ad-tittle">
                     Best Maternity Hospitals 2020
                   </h4>
                   <p class="card-text ad-text">
@@ -952,7 +1029,7 @@
                   />
                 </div>
                 <div class="card-body border p-3">
-                  <h4 class="card-title ad-tittle">
+                  <h4 class="font-weight-bold card-title ad-tittle">
                     Newsweek AMPLIFY Launches Strategic Partnership Solutions
                     for Brands
                   </h4>
@@ -980,7 +1057,7 @@
                   />
                 </div>
                 <div class="card-body">
-                  <h4 class="card-title">
+                  <h4 class="font-weight-bold card-title">
                     Groups Boycotting Facebook Say Company 'Should Be Doing Much
                     More'
                   </h4>
@@ -994,7 +1071,7 @@
             </section>
             <section class="article-section featured-stories p-3 shadow-sm">
               <h4>My Turn</h4>
-              <div class="row row-cols-md-3">
+              <div class="row m-0 row-cols-md-3">
                 <article class="card mt-3 px-2">
                   <div class="wrapper">
                     <img
@@ -1004,7 +1081,7 @@
                     />
                   </div>
                   <div class="card-body">
-                    <h4 class="card-title my-turn-title">
+                    <h4 class="font-weight-bold card-title my-turn-title">
                       'I'm a Secret Engagement Ring Buyer for Clueless Guys'
                     </h4>
                   </div>
@@ -1018,7 +1095,7 @@
                     />
                   </div>
                   <div class="card-body">
-                    <h4 class="card-title my-turn-title">
+                    <h4 class="font-weight-bold card-title my-turn-title">
                       'I Am a Scientist Working With Severe Cases of COVID-19'
                     </h4>
                   </div>
@@ -1032,7 +1109,7 @@
                     />
                   </div>
                   <div class="card-body">
-                    <h4 class="card-title my-turn-title">
+                    <h4 class="font-weight-bold card-title my-turn-title">
                       'My Son Was Killed in a Shooting, on the First Day of His
                       PhD Scholarship'
                     </h4>
@@ -1044,7 +1121,7 @@
               class="article-section featured-stories px-3 pb-3 shadow-sm"
             >
               <h4>CULTURE & TRAVEL</h4>
-              <div class="row row-cols-md-3">
+              <div class="row m-0 row-cols-md-3">
                 <article class="card mt-3 px-2">
                   <div class="wrapper mb-3">
                     <div class="category culture-category">
@@ -1057,7 +1134,7 @@
                     />
                   </div>
                   <div class="card-body">
-                    <h4 class="card-title my-turn-title">
+                    <h4 class="font-weight-bold card-title my-turn-title">
                       The Last Two Northern White Rhinos—and The Armed Guard Who
                       Protects Them
                     </h4>
@@ -1075,7 +1152,7 @@
                     />
                   </div>
                   <div class="card-body">
-                    <h4 class="card-title my-turn-title">
+                    <h4 class="font-weight-bold card-title my-turn-title">
                       Planning a Trip to One of NYC's Recently Opened Museums?
                       What to Know
                     </h4>
@@ -1093,7 +1170,7 @@
                     />
                   </div>
                   <div class="card-body">
-                    <h4 class="card-title my-turn-title">
+                    <h4 class="font-weight-bold card-title my-turn-title">
                       First Black Woman to Host Travel TV Show Flies in the Face
                       of Convention
                     </h4>
@@ -1603,7 +1680,7 @@
                   />
                 </div>
                 <div class="card-body border p-3">
-                  <h4 class="card-title ad-tittle">
+                  <h4 class="font-weight-bold card-title ad-tittle">
                     What Makes the Best Lawyers Stand Out?
                   </h4>
                   <p class="card-text ad-text">
@@ -1617,7 +1694,9 @@
                   class="d-flex icon-title-container align-items-center mt-2 mb-3"
                 >
                   <span class="icon-n"></span>
-                  <p>Start your day with our top 5 articles</p>
+                  <p class="font-weight-bold m-0">
+                    Start your day with our top 5 articles
+                  </p>
                 </div>
                 <form>
                   <input
@@ -1642,7 +1721,7 @@
                   />
                 </div>
                 <div class="card-body border p-3">
-                  <h4 class="card-title ad-tittle">
+                  <h4 class="font-weight-bold card-title ad-tittle">
                     America's Best Addiction Treatment Centers 2020
                   </h4>
                   <p class="card-text ad-text">
@@ -1664,7 +1743,7 @@
                   />
                 </div>
                 <div class="card-body border p-3">
-                  <h4 class="card-title ad-tittle">
+                  <h4 class="font-weight-bold card-title ad-tittle">
                     Best Infection Prevention Products
                   </h4>
                   <p class="card-text ad-text">
@@ -1683,7 +1762,9 @@
                   />
                 </div>
                 <div class="card-body border p-3">
-                  <h4 class="card-title ad-tittle">Best Nursing Homes 2021</h4>
+                  <h4 class="font-weight-bold card-title ad-tittle">
+                    Best Nursing Homes 2021
+                  </h4>
                   <p class="card-text ad-text">
                     Newsweek is partnering with the respected global data
                     research firm Statista Inc. to establish a ranking of Best
@@ -1980,7 +2061,7 @@
                   />
                 </div>
                 <div class="card-body">
-                  <h4 class="card-title my-turn-title">
+                  <h4 class="font-weight-bold card-title my-turn-title">
                     'I'm a Secret Engagement Ring Buyer for Clueless Guys'
                   </h4>
                 </div>
@@ -1994,7 +2075,7 @@
                   />
                 </div>
                 <div class="card-body">
-                  <h4 class="card-title my-turn-title">
+                  <h4 class="font-weight-bold card-title my-turn-title">
                     'I Am a Scientist Working With Severe Cases of COVID-19'
                   </h4>
                 </div>
@@ -2008,7 +2089,7 @@
                   />
                 </div>
                 <div class="card-body">
-                  <h4 class="card-title my-turn-title">
+                  <h4 class="font-weight-bold card-title my-turn-title">
                     'My Son Was Killed in a Shooting, on the First Day of His
                     PhD Scholarship'
                   </h4>
@@ -2033,7 +2114,7 @@
                   />
                 </div>
                 <div class="card-body">
-                  <h4 class="card-title my-turn-title">
+                  <h4 class="font-weight-bold card-title my-turn-title">
                     The Last Two Northern White Rhinos—and The Armed Guard Who
                     Protects Them
                   </h4>
@@ -2051,7 +2132,7 @@
                   />
                 </div>
                 <div class="card-body">
-                  <h4 class="card-title my-turn-title">
+                  <h4 class="font-weight-bold card-title my-turn-title">
                     Planning a Trip to One of NYC's Recently Opened Museums?
                     What to Know
                   </h4>
@@ -2069,7 +2150,7 @@
                   />
                 </div>
                 <div class="card-body">
-                  <h4 class="card-title my-turn-title">
+                  <h4 class="font-weight-bold card-title my-turn-title">
                     First Black Woman to Host Travel TV Show Flies in the Face
                     of Convention
                   </h4>
@@ -2087,7 +2168,7 @@
                   />
                 </div>
                 <div class="card-body border p-3">
-                  <h4 class="card-title ad-tittle">
+                  <h4 class="font-weight-bold card-title ad-tittle">
                     What Could a Career in Engineering or Computer Science Do
                     For You?
                   </h4>
@@ -2103,7 +2184,9 @@
                   class="d-flex icon-title-container align-items-center mt-2 mb-3"
                 >
                   <span class="icon-n"></span>
-                  <p>Start your day with our top 5 articles</p>
+                  <p class="font-weight-bold m-0">
+                    Start your day with our top 5 articles
+                  </p>
                 </div>
                 <form>
                   <input
@@ -2128,7 +2211,7 @@
                   />
                 </div>
                 <div class="card-body border p-3">
-                  <h4 class="card-title ad-tittle">
+                  <h4 class="font-weight-bold card-title ad-tittle">
                     What Makes the Best Lawyers Stand Out?
                   </h4>
                   <p class="card-text ad-text">
@@ -2149,7 +2232,7 @@
                   />
                 </div>
                 <div class="card-body border p-3">
-                  <h4 class="card-title ad-tittle">
+                  <h4 class="font-weight-bold card-title ad-tittle">
                     America's Best Addiction Treatment Centers 2020
                   </h4>
                   <p class="card-text ad-text">
@@ -2171,7 +2254,7 @@
                   />
                 </div>
                 <div class="card-body border p-3">
-                  <h4 class="card-title ad-tittle">
+                  <h4 class="font-weight-bold card-title ad-tittle">
                     Best Infection Prevention Products
                   </h4>
                   <p class="card-text ad-text">
@@ -2190,7 +2273,9 @@
                   />
                 </div>
                 <div class="card-body border p-3">
-                  <h4 class="card-title ad-tittle">Best Nursing Homes 2021</h4>
+                  <h4 class="font-weight-bold card-title ad-tittle">
+                    Best Nursing Homes 2021
+                  </h4>
                   <p class="card-text ad-text">
                     Newsweek is partnering with the respected global data
                     research firm Statista Inc. to establish a ranking of Best
@@ -2202,13 +2287,15 @@
             </section>
           </div>
         </div>
-        <div class="row">
-          <section class="mt-xs-3 p-3 shadow-sm w-100 in-the-magazine bg-white">
+        <div class="row m-0">
+          <section
+            class="mt-xs-3 p-3 shadow-sm w-100 in-the-magazine bg-white font-weight-bold"
+          >
             <div class="d-flex align-items-center justify-content-center w-100">
               <span class="icon-n"></span>
-              <h4>IN THE MAGAZINE</h4>
+              <h4 class="font-weight-bold m-0">IN THE MAGAZINE</h4>
             </div>
-            <div class="row row-cols-md-4 row-cols-1">
+            <div class="row m-0 row-cols-md-4 row-cols-1">
               <div class="col px-md-2">
                 <article class="card mt-3">
                   <div class="wrapper">
@@ -2222,7 +2309,9 @@
                     />
                   </div>
                   <div class="card-body">
-                    <h4 class="card-title text-center itm-tittle">
+                    <h4
+                      class="font-weight-bold card-title text-center itm-tittle"
+                    >
                       SEE ALL FEATURES
                       <i class="fas fa-angle-right"></i>
                     </h4>
@@ -2247,7 +2336,7 @@
                     </div>
                   </div>
                   <div class="card-body">
-                    <h4 class="card-title itm-tittle2">
+                    <h4 class="font-weight-bold card-title itm-tittle2">
                       How the Pandemic Will Change the Way We Manage Money
                       Forever
                     </h4>
@@ -2272,7 +2361,7 @@
                     </div>
                   </div>
                   <div class="card-body">
-                    <h4 class="card-title itm-tittle">
+                    <h4 class="font-weight-bold card-title itm-tittle">
                       Five Money Moves to Make Right Now to Overcome Your
                       Biggest Financial Worries
                     </h4>
@@ -2297,7 +2386,7 @@
                     </div>
                   </div>
                   <div class="card-body">
-                    <h4 class="card-title itm-tittle">
+                    <h4 class="font-weight-bold card-title itm-tittle">
                       Obama Fear of Retaliation Limited Response to Russian
                       Meddling, Book Reveal
                     </h4>
@@ -2322,7 +2411,7 @@
                     </div>
                   </div>
                   <div class="card-body">
-                    <h4 class="card-title itm-tittle">
+                    <h4 class="font-weight-bold card-title itm-tittle">
                       CIA Directors are Not 'Yes-Men'
                     </h4>
                   </div>
@@ -2346,7 +2435,7 @@
                     </div>
                   </div>
                   <div class="card-body">
-                    <h4 class="card-title itm-tittle">
+                    <h4 class="font-weight-bold card-title itm-tittle">
                       25 Must-Read Fall Fiction and Nonfiction Books to Escape
                       the Chaos of 2020
                     </h4>
@@ -2371,7 +2460,7 @@
                     </div>
                   </div>
                   <div class="card-body">
-                    <h4 class="card-title itm-tittle">
+                    <h4 class="font-weight-bold card-title itm-tittle">
                       Sunny Hostin Is Sharing Her View in a New Memoir 'I Am
                       These Truths'
                     </h4>
@@ -2391,22 +2480,26 @@
                     />
                   </div>
                   <div class="card-body">
-                    <h4 class="card-title itm-tittle">Hands Up, Don’t Shoot</h4>
+                    <h4 class="font-weight-bold card-title itm-tittle">
+                      Hands Up, Don’t Shoot
+                    </h4>
                   </div>
                 </article>
               </div>
             </div>
           </section>
         </div>
-        <div class="row">
-          <section class="mt-3 p-3 w-100 in-the-magazine bg-white">
+        <div class="row m-0">
+          <section
+            class="mt-3 p-3 w-100 in-the-magazine bg-white font-weight-bold"
+          >
             <div
               class="d-flex align-items-center justify-content-center w-100 mb-3 tittle-border"
             >
               <span class="icon-n"></span>
-              <h4>EDITOR'S PICK</h4>
+              <h4 class="font-weight-bold m-0">EDITOR'S PICK</h4>
             </div>
-            <div class="row row-cols-md-2 row-cols-lg-4 row-cols-1">
+            <div class="row m-0 row-cols-md-2 row-cols-lg-4 row-cols-1">
               <div class="col px-md-2">
                 <article class="card mb-3">
                   <div class="wrapper">
@@ -2418,7 +2511,7 @@
                     />
                   </div>
                   <div class="card-body">
-                    <h4 class="card-title ad-tittle">
+                    <h4 class="font-weight-bold card-title ad-tittle">
                       Trump Campaign Uses Filter on Joe Biden Photo to Make Him
                       Look Older
                     </h4>
@@ -2441,7 +2534,7 @@
                     />
                   </div>
                   <div class="card-body">
-                    <h4 class="card-title ad-tittle">
+                    <h4 class="font-weight-bold card-title ad-tittle">
                       Coronavirus Cases Are Falling Fastest in These Five States
                     </h4>
                     <p class="card-text ad-text mt-2">
@@ -2462,7 +2555,7 @@
                     />
                   </div>
                   <div class="card-body">
-                    <h4 class="card-title ad-tittle">
+                    <h4 class="font-weight-bold card-title ad-tittle">
                       Veterans Group Ad Says Trump Has Betrayed Military,
                       'Emboldens the Enemy'
                     </h4>
@@ -2486,7 +2579,7 @@
                     />
                   </div>
                   <div class="card-body">
-                    <h4 class="card-title ad-tittle">
+                    <h4 class="font-weight-bold card-title ad-tittle">
                       Giant Crater in Siberia May Have Exploded From Climate
                       Change Cryovolcanism
                     </h4>
@@ -2508,7 +2601,7 @@
                     />
                   </div>
                   <div class="card-body">
-                    <h4 class="card-title ad-tittle">
+                    <h4 class="font-weight-bold card-title ad-tittle">
                       Trump Criticizes Cuomo on COVID, After Gov. Says President
                       Unwelcome in NY
                     </h4>
@@ -2531,7 +2624,7 @@
                     />
                   </div>
                   <div class="card-body">
-                    <h4 class="card-title ad-tittle">
+                    <h4 class="font-weight-bold card-title ad-tittle">
                       TikTok Removes Videos in '365 Days' as Users Joke About
                       Sexual Violence
                     </h4>
@@ -2554,7 +2647,7 @@
                     />
                   </div>
                   <div class="card-body">
-                    <h4 class="card-title ad-tittle">
+                    <h4 class="font-weight-bold card-title ad-tittle">
                       Meghan Markle and Prince Harry's Netflix Deal Could Be
                       Bigger Than Obamas'
                     </h4>
@@ -2578,7 +2671,7 @@
                     />
                   </div>
                   <div class="card-body">
-                    <h4 class="card-title ad-tittle">
+                    <h4 class="font-weight-bold card-title ad-tittle">
                       AOC Rebukes McConnell, GOP Senators for Stalled Stimulus
                       Talks
                     </h4>
@@ -2597,9 +2690,9 @@
 
         <section class="mt-2 px-3 pb-3 w-100 bg-white">
           <div>
-            <h4 class="left-tittle pt-3">U.S.</h4>
+            <h4 class="left-tittle font-weight-bold pt-3">U.S.</h4>
           </div>
-          <div class="row row-cols-md-3 row-cols-1">
+          <div class="row m-0 row-cols-md-3 row-cols-1">
             <div class="col px-md-2">
               <article class="card my-2">
                 <div class="wrapper">
@@ -2610,7 +2703,7 @@
                   />
                 </div>
                 <div class="card-body">
-                  <h4 class="card-tittle">
+                  <h4 class="font-weight-bold card-tittle">
                     Rochester Protester Arrested, Charged With Assaulting Police
                   </h4>
                 </div>
@@ -2626,7 +2719,7 @@
                   />
                 </div>
                 <div class="card-body">
-                  <h4 class="card-title">
+                  <h4 class="font-weight-bold card-title">
                     Oregon Fire Evacuation Map, Update as 83,000 Medford
                     Residents Flee
                   </h4>
@@ -2687,9 +2780,9 @@
         </section>
         <section class="mt-2 px-3 pb-3 w-100 bg-white">
           <div>
-            <h4 class="left-tittle pt-3">World</h4>
+            <h4 class="left-tittle font-weight-bold pt-3">World</h4>
           </div>
-          <div class="row row-cols-1 row-cols-md-3">
+          <div class="row m-0 row-cols-1 row-cols-md-3">
             <div class="col px-md-2">
               <article class="card my-2">
                 <div class="wrapper">
@@ -2700,7 +2793,7 @@
                   />
                 </div>
                 <div class="card-body">
-                  <h4 class="card-title">
+                  <h4 class="font-weight-bold card-title">
                     Tooth From Great White Shark That Killed Australian Man
                     Found in Surf Board
                   </h4>
@@ -2717,7 +2810,7 @@
                   />
                 </div>
                 <div class="card-body">
-                  <h4 class="card-title">
+                  <h4 class="font-weight-bold card-title">
                     Greece's Moria Refugee Camp Engulfed in Flames Amid COVID-19
                     Unrest
                   </h4>
@@ -2778,9 +2871,9 @@
         </section>
         <section class="mt-2 px-3 pb-3 w-100 bg-white">
           <div>
-            <h4 class="left-tittle pt-3">Business</h4>
+            <h4 class="left-tittle font-weight-bold pt-3">Business</h4>
           </div>
-          <div class="row row-cols-md-3 row-cols-1">
+          <div class="row m-0 row-cols-md-3 row-cols-1">
             <div class="col px-md-2">
               <article class="card my-2">
                 <div class="wrapper">
@@ -2791,7 +2884,7 @@
                   />
                 </div>
                 <div class="card-body">
-                  <h4 class="card-title">
+                  <h4 class="font-weight-bold card-title">
                     Rochester Eatery Offered BLM Protesters Water Hours Before
                     Being Vandalized
                   </h4>
@@ -2808,7 +2901,7 @@
                   />
                 </div>
                 <div class="card-body">
-                  <h4 class="card-title">
+                  <h4 class="font-weight-bold card-title">
                     Are Starbucks, Dunkin' Donuts Open on Labor Day? See Coffee
                     Shop Hours
                   </h4>
@@ -2869,9 +2962,9 @@
         </section>
         <section class="mt-2 px-3 pb-3 w-100 bg-white">
           <div>
-            <h4 class="left-tittle pt-3">Tech & Science</h4>
+            <h4 class="left-tittle font-weight-bold pt-3">Tech & Science</h4>
           </div>
-          <div class="row row-cols-md-3 row-cols-1">
+          <div class="row m-0 row-cols-md-3 row-cols-1">
             <div class="col px-md-2">
               <article class="card my-2">
                 <div class="wrapper">
@@ -2882,7 +2975,7 @@
                   />
                 </div>
                 <div class="card-body">
-                  <h4 class="card-title">
+                  <h4 class="font-weight-bold card-title">
                     Great White Shark Swims Right Next to Cape Cod Shore in
                     Photos
                   </h4>
@@ -2899,7 +2992,7 @@
                   />
                 </div>
                 <div class="card-body">
-                  <h4 class="card-title">
+                  <h4 class="font-weight-bold card-title">
                     Working From Home? Vivaldi Makes it Easier to Take a Break
                   </h4>
                 </div>
@@ -2959,9 +3052,9 @@
         </section>
         <section class="mt-2 px-3 pb-3 w-100 bg-white">
           <div>
-            <h4 class="left-tittle pt-3">Culture</h4>
+            <h4 class="left-tittle font-weight-bold pt-3">Culture</h4>
           </div>
-          <div class="row row-cols-md-3 row-cols-1">
+          <div class="row m-0 row-cols-md-3 row-cols-1">
             <div class="col px-md-2">
               <article class="card my-2">
                 <div class="wrapper">
@@ -2972,7 +3065,7 @@
                   />
                 </div>
                 <div class="card-body">
-                  <h4 class="card-title">
+                  <h4 class="font-weight-bold card-title">
                     Odd Covid-19 Restrictions Say Sex Parties Are Fine But Not
                     Dancing
                   </h4>
@@ -2989,7 +3082,7 @@
                   />
                 </div>
                 <div class="card-body">
-                  <h4 class="card-title">
+                  <h4 class="font-weight-bold card-title">
                     'Away' on Netflix is Based on Real Life (and Gross) Space
                     Science
                   </h4>
@@ -3049,9 +3142,9 @@
         </section>
         <section class="mt-2 px-3 pb-3 w-100 bg-white">
           <div>
-            <h4 class="left-tittle">Sports</h4>
+            <h4 class="left-tittle font-weight-bold">Sports</h4>
           </div>
-          <div class="row row-cols-md-3 row-cols-1">
+          <div class="row m-0 row-cols-md-3 row-cols-1">
             <div class="col px-md-2">
               <article class="card my-2">
                 <div class="wrapper">
@@ -3062,7 +3155,7 @@
                   />
                 </div>
                 <div class="card-body">
-                  <h4 class="card-title">
+                  <h4 class="font-weight-bold card-title">
                     NFL Power Rankings: Where NFC East teams Stand Ahead of 2020
                     Season
                   </h4>
@@ -3079,7 +3172,7 @@
                   />
                 </div>
                 <div class="card-body">
-                  <h4 class="card-title">
+                  <h4 class="font-weight-bold card-title">
                     Watch Mike Tyson's Intense Training Workout Leading up to
                     His Next Fight
                   </h4>
@@ -3138,9 +3231,9 @@
             </div>
           </div>
         </section>
-        <div class="row mt-xs-3">
+        <div class="row m-0 mt-xs-3">
           <div class="subscribe bg-white col-md-12 col-lg-7 pb-3">
-            <h4 class="m-3">SUBSCRIBE</h4>
+            <h4 class="m-3 font-weight-bold">SUBSCRIBE</h4>
             <div
               class="subscribe-content-container d-md-flex justify-content-between"
             >
@@ -3181,7 +3274,7 @@
             </div>
           </div>
           <div class="newsletter bg-white col-md-12 col-lg-5 mt-xs-3">
-            <h4 class="m-3">NEWSLETTER</h4>
+            <h4 class="m-3 font-weight-bold">NEWSLETTER</h4>
             <div
               class="d-flex mx-3 justify-content-between border newsletter-wrapper"
             >
@@ -3208,7 +3301,7 @@
           </div>
         </div>
         <div class="bottom-rows p-3 mt-3 bg-white">
-          <div class="row row-cols-1 row-cols-md-2 border-bottom pt-3">
+          <div class="row m-0 row-cols-1 row-cols-md-2 border-bottom pt-3">
             <div class="left-div d-md-flex">
               <a href="#">
                 <img
@@ -3231,7 +3324,7 @@
               <a href="#"><i class="mr-3 fab fa-linkedin-in"></i></a>
             </div>
           </div>
-          <div class="row row-cols-1">
+          <div class="row m-0 row-cols-1">
             <div class="upper-div d-flex pt-3">
               <h5 class="d-inline-block color-666 editions-h5">Editions:</h5>
               <nav class="w-100">

@@ -23,6 +23,12 @@ article:hover {
 
 /* ---------------------- NAVBAR --------------------- */
 
+.header-sticky {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
 .navbar {
   background-color: #f72210;
   padding: 10px 8px;
@@ -43,7 +49,7 @@ article:hover {
 
 .hide-div {
   position: relative;
-  top: -790px;
+  top: -1000px;
   z-index: 3;
   transition: 0.3s ease-in;
 }
@@ -55,7 +61,6 @@ article:hover {
 
 .navbar-brand {
   padding: 0;
-  margin: 0;
   font-size: 0;
 }
 
@@ -81,14 +86,9 @@ article:hover {
 .nav-offer {
   border-radius: 25px;
   font-size: 12px;
-  font-weight: bold;
   background-color: #ffe400;
   padding: 2px 16px;
   max-height: 23px;
-}
-
-.nav-offer p {
-  margin: 0;
 }
 
 .navbar-collapse {
@@ -108,7 +108,6 @@ article:hover {
 
 .nav-link {
   color: black;
-  font-weight: bold;
 }
 
 .navbar-nav {
@@ -128,10 +127,6 @@ article:hover {
 }
 
 /* ---------------------- MAIN CONTENT ----------------- */
-
-.row {
-  margin: 0;
-}
 
 .row div {
   padding: 0;
@@ -183,7 +178,6 @@ article:hover {
 .card-body h4 {
   font-size: 1.4em;
   color: black;
-  font-weight: bold;
 }
 
 .img-div {
@@ -322,10 +316,8 @@ article:hover {
 
 .icon-title-container p {
   font-size: 19px;
-  font-weight: bold;
   text-transform: uppercase;
   line-height: 1;
-  margin: 0;
 }
 
 .icon-n {
@@ -356,7 +348,6 @@ article:hover {
   border-bottom: 1px solid #d9d9d9;
   padding-bottom: 8px;
   color: #333;
-  font-weight: bold;
 }
 
 .row .tittle-border {
@@ -365,9 +356,7 @@ article:hover {
 }
 
 .in-the-magazine h4 {
-  margin: 0;
   font-size: 19px;
-  font-weight: bold;
 }
 
 .card-body .itm-tittle {
@@ -397,7 +386,6 @@ article:hover {
 .left-tittle {
   color: #f72210;
   font-size: 20px;
-  font-weight: bold;
 }
 
 .smaller-img {
@@ -422,7 +410,6 @@ article:hover {
 .newsletter h4 {
   color: #f72210;
   font-size: 16px;
-  font-weight: bold;
 }
 
 .subscribe-content-container {
