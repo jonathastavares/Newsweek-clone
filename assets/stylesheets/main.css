@@ -333,8 +333,11 @@ article:hover {
   display: block;
   width: 29px;
   height: 28px;
-  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain
-    no-repeat #f72210;
+  background-image: url(https://g.newsweek.com/www/images/logo-n1.svg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #f72210;
   margin-right: 10px;
 }
 
@@ -451,10 +454,6 @@ article:hover {
 .info button {
   left: 50%;
   transform: translate(-50%, 0);
-  background-color: #f61602;
-}
-
-.sign-up-btn {
   background-color: #f61602;
 }
 
