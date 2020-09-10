@@ -1,0 +1,596 @@
+body {
+  background-color: rgb(244, 245, 246);
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.container {
+  max-width: 1310px;
+  padding: 0;
+}
+
+a {
+  color: black;
+}
+
+.width-330 {
+  max-width: 330px;
+  margin: 0 auto;
+}
+
+article:hover {
+  cursor: pointer;
+}
+
+/* ---------------------- NAVBAR --------------------- */
+
+.header-sticky {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar {
+  background-color: #f72210;
+  padding: 10px 8px;
+  height: 52px;
+}
+
+.right-decoration::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  content: "";
+  display: block;
+  width: 66px;
+  background-color: #f72210;
+  border-left: 12px solid white;
+  border-top: 13px solid #f72210;
+}
+
+.hide-div {
+  position: relative;
+  top: -1000px;
+  z-index: 3;
+  transition: 0.3s ease-in;
+}
+
+.show-div {
+  top: 10px !important;
+  transition: 0.3s ease-in;
+}
+
+.navbar-brand {
+  padding: 0;
+  font-size: 0;
+}
+
+.logo-img {
+  width: 125px;
+}
+
+.navbar svg {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 23px;
+}
+
+.svg-dropdown {
+  color: black !important;
+  border: none;
+  outline: none;
+}
+
+.navbar button {
+  padding: 0;
+}
+
+.nav-offer {
+  border-radius: 25px;
+  font-size: 12px;
+  background-color: #ffe400;
+  padding: 2px 16px;
+  max-height: 23px;
+}
+
+.navbar-collapse {
+  flex-grow: 0;
+  display: flex;
+}
+
+.nav-col-container {
+  width: 220px;
+  background-color: #fff;
+}
+
+.form-control {
+  width: 85%;
+  border: 0;
+}
+
+.nav-link {
+  color: black;
+}
+
+.navbar-nav {
+  padding: 12px;
+  border-bottom: 1px solid #dedede;
+}
+
+.trending-li {
+  color: rgb(128, 127, 132);
+  font-weight: 500;
+  line-height: 1;
+}
+
+.weather {
+  height: 22px;
+  width: 30px;
+}
+
+/* ---------------------- MAIN CONTENT ----------------- */
+
+.row div {
+  padding: 0;
+}
+
+.card {
+  border: none;
+  border-radius: 0;
+}
+
+.wrapper {
+  position: relative;
+}
+
+.wrapper .category {
+  padding: 8px 15px 9px;
+  background-color: rgba(255, 255, 255, 0.9);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.category a {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 17px;
+  color: #f72210;
+}
+
+.card-body {
+  padding: 10px 0;
+}
+
+.card-text {
+  font-size: 0.8em;
+}
+
+.article-section {
+  background-color: white;
+}
+
+.article-section h4 {
+  color: rgba(3, 3, 3, 0.4);
+  font-size: 1em;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.card-body h4 {
+  font-size: 1.4em;
+  color: black;
+}
+
+.img-div {
+  height: 75px;
+  width: 75px;
+}
+
+.img-div img {
+  width: 63px;
+  height: 63px;
+}
+
+.decoration {
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  color: #d6d6d6;
+  background-color: black;
+  border-radius: 50%;
+  position: relative;
+  z-index: 2;
+}
+
+.decoration-container::before {
+  content: "";
+  display: block;
+  background-color: #d9d9d9;
+  height: 1px;
+  position: absolute;
+  top: calc(50% - 2px);
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.decoration-container::after {
+  content: "";
+  display: block;
+  background-color: #d9d9d9;
+  height: 1px;
+  position: absolute;
+  top: calc(50% + 2px);
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.debate-wrapper {
+  border-top: 4px solid #d9d9d9;
+  border-bottom: 4px solid #d9d9d9;
+}
+
+/* ---------------- Opinion's Section ------------------ */
+
+.author {
+  font-size: 14px;
+}
+
+.opinion-article {
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.wrapper h5 {
+  font-size: 17px;
+  line-height: 20px;
+}
+
+.opinion-subfeature {
+  font-size: 14px;
+  line-height: 21px;
+  color: #555;
+  text-transform: uppercase;
+  margin-top: 4px;
+}
+
+/* ---------------- Ad's Section ------------------ */
+
+.ad-category a {
+  color: #3581f4;
+}
+
+.card-body .ad-tittle {
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.ad-text,
+.ms-description {
+  color: #333;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* ---------------- More Stories's Section ------------------ */
+
+.more-stories-article {
+  border-top: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.ms-img {
+  height: 95px;
+  width: 95px;
+}
+
+/* ------------------------------ MY TURN SECTION ------------------- */
+
+.card-body .my-turn-title {
+  color: rgba(3, 3, 3, 0.5);
+  font-size: 16px;
+}
+
+/* ---------------------------- CULTURE SECTION ------------------------ */
+
+.wrapper .culture-category {
+  background-color: #c2d4d7;
+  padding: 0 6px;
+}
+
+.culture-category a {
+  color: #333;
+  font-size: 13px;
+}
+
+.wrapper .cultureAndTravel-category {
+  padding: 5px 15px;
+}
+
+.row .sign-up-div {
+  max-width: 300px;
+  margin: 0 auto 30px;
+  border: 1px solid #e5e5e5;
+  background-color: #f4f5f6;
+  padding: 20px;
+}
+
+.icon-title-container p {
+  font-size: 19px;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+.icon-n {
+  flex: none;
+  display: block;
+  width: 29px;
+  height: 28px;
+  background-image: url(https://g.newsweek.com/www/images/logo-n1.svg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #f72210;
+  margin-right: 10px;
+}
+
+.sign-up-div input {
+  width: 100%;
+}
+
+.sign-up-btn {
+  background-color: #f61602;
+  width: 100%;
+}
+
+/* ---------------------------- IN THE MAGAZINE SECTION ------------------------ */
+
+.in-the-magazine {
+  border-bottom: 1px solid #d9d9d9;
+  padding-bottom: 8px;
+  color: #333;
+}
+
+.row .tittle-border {
+  border-bottom: 1px solid #d9d9d9;
+  padding-bottom: 10px;
+}
+
+.in-the-magazine h4 {
+  font-size: 19px;
+}
+
+.card-body .itm-tittle {
+  font-size: 18px;
+}
+
+.itm-category1 a {
+  padding: 5px 7px;
+  background-color: #f72210;
+  color: white;
+  margin-right: 7px;
+}
+
+.itm-category2 a {
+  padding: 5px 7px;
+  background-color: white;
+  color: #f72210;
+  margin-right: 7px;
+}
+
+.in-the-magazine .itm-tittle2 {
+  font-size: 16px;
+}
+
+/* -------------------------- DIFFERENT ARTICLES --------------------- */
+
+.left-tittle {
+  color: #f72210;
+  font-size: 20px;
+}
+
+.smaller-img {
+  height: 65px;
+  width: 95px;
+}
+
+.smaller-img-tittle {
+  height: 70px;
+}
+
+.img-tittle {
+  height: 95px;
+}
+
+/* -------------------------- SUBSCRIBE & NEWSLETTER --------------------- */
+.subscribe {
+  min-height: 450px;
+}
+
+.subscribe h4,
+.newsletter h4 {
+  color: #f72210;
+  font-size: 16px;
+}
+
+.subscribe-content-container {
+  width: 90%;
+  height: 88%;
+  margin: 0 auto;
+  background-color: rgb(244, 245, 246);
+}
+
+.subscribe-img1 {
+  top: 30px;
+  left: calc(50% - (170px / 2) - 40px);
+}
+
+.subscribe-img2 {
+  top: 40px;
+  left: calc(50% - (170px / 2) + 40px);
+}
+
+.info {
+  top: 200px;
+}
+
+.info h3 {
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.info button {
+  left: 50%;
+  transform: translate(-50%, 0);
+  background-color: #f61602;
+}
+
+/* -------------------------- BOTTOM NAVBAR ------------------------ */
+
+.bottom-logo {
+  width: 240px;
+}
+
+.upper-div ul {
+  padding-inline-start: 8px;
+}
+
+.bottom-ul {
+  padding-inline-start: 0;
+}
+
+.color-666 {
+  color: #666;
+  font-size: 15px;
+  padding-right: 5px;
+}
+
+.editions-h5 {
+  font-weight: 900;
+}
+
+.right-div i {
+  font-size: 23px;
+  color: #666;
+}
+
+.bottom-rows li {
+  line-height: 1;
+}
+
+.newsletter-img-div {
+  width: 48%;
+  max-width: 191px;
+  background-image: url(../images/newsletter-img.png);
+  background-size: cover;
+  background-position: center;
+}
+
+@media screen and (min-width: 768px) {
+  .sticky {
+    position: sticky;
+    bottom: 0;
+    align-self: flex-end;
+  }
+
+  .dif-tittle {
+    font-size: 16px;
+  }
+
+  .subscribe,
+  .newsletter {
+    min-height: 375px;
+  }
+
+  .subscribe-content-container {
+    width: 96%;
+  }
+
+  .subscribe-img1 {
+    top: 30px;
+    left: calc(170px / 2 - 40px);
+  }
+
+  .subscribe-img2 {
+    top: 40px;
+    left: calc(170px / 2 + 40px);
+  }
+
+  .second-relative-div {
+    top: 40px;
+    width: 750px;
+  }
+
+  .info {
+    top: 25px;
+    left: calc(50% - (110px / 2));
+  }
+
+  .info h3,
+  .newsletter-text-div h5 {
+    font-size: 25px;
+    font-weight: 900;
+  }
+
+  .newsletter-wrapper {
+    height: 100%;
+    max-height: 314px;
+  }
+
+  .line-height-4-margin-bottom {
+    line-height: 4;
+    margin-bottom: 0;
+  }
+
+  .right-div {
+    align-items: center;
+    justify-content: flex-end;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .trending-div ul {
+    padding-inline-start: 0;
+  }
+
+  .first-row {
+    border-top: 1px solid #dee2e6;
+  }
+
+  .sticky-lg {
+    position: sticky;
+    bottom: 0;
+    align-self: flex-end;
+  }
+
+  .navbar {
+    background-color: #f72210;
+    height: 193px;
+  }
+
+  .logo-img {
+    width: 400px;
+    align-self: center;
+  }
+
+  .lg-list {
+    list-style: none;
+  }
+
+  .nav-link {
+    font-size: 19px;
+  }
+
+  .lg-input {
+    height: 40px;
+    border: 0;
+    width: 65px;
+  }
+
+  .trending-div h3 {
+    font-size: 18px;
+  }
+
+  .trending-li {
+    line-height: 2;
+  }
+}
