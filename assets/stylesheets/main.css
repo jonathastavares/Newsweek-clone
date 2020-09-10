@@ -109,6 +109,11 @@ article:hover {
   line-height: 1;
 }
 
+.weather {
+  height: 22px;
+  width: 30px;
+}
+
 /* ---------------------- MAIN CONTENT ----------------- */
 
 .row {
@@ -548,5 +553,29 @@ article:hover {
     position: sticky;
     bottom: 0;
     align-self: flex-end;
+  }
+
+  .navbar {
+    background-color: #f72210;
+    height: 193px;
+  }
+
+  .logo-img {
+    width: 400px;
+    align-self: center;
+  }
+
+  .lg-list {
+    list-style: none;
+  }
+
+  .nav-link {
+    font-size: 19px;
+  }
+
+  .lg-input {
+    height: 40px;
+    border: 0;
+    width: 80px;
   }
 }

@@ -28,15 +28,33 @@
   <body>
     <div class="container">
       <header>
-        <nav class="navbar navbar-expand-lg align-items-center">
-          <a class="navbar-brand ml-2" href="#">
+        <nav
+          class="d-flex navbar align-items-center justify-content-between p-0"
+        >
+          <div class="d-none d-lg-block pl-3 pt-2">
+            <div class="d-flex">
+              <img
+                class="weather pr-1"
+                src="https://g.newsweek.com/img/weather/34.png"
+                alt="weather symbol"
+              />
+              <p class="text-white font-weight-bold px-1 mb-0">33º</p>
+              <p class="text-white font-weight-bold px-1 mb-0">
+                Rio das Ostras, BR <i class="fas fa-angle-right"></i>
+              </p>
+            </div>
+            <div class="">
+              <p class="text-white px-1 mb-0 mt-2">Thu, Sep 10, 2020</p>
+            </div>
+          </div>
+          <a class="navbar-brand ml-2 pt-3" href="#">
             <img
               class="logo-img"
               src="assets/images/Newsweek_Logo.svg.png"
               alt="Newsweek logo"
             />
           </a>
-          <div class="d-flex align-items-center justify-content-between">
+          <div class="d-flex justify-content-between pr-3">
             <svg
               width="1em"
               height="1em"
@@ -55,7 +73,7 @@
             </div>
             <button
               id="navbar-toggler"
-              class="navbar-toggler"
+              class="navbar-toggler d-lg-none"
               type="button"
               data-toggle="collapse"
               data-target="#navbarSupportedContent"
@@ -80,9 +98,91 @@
               </span>
             </button>
           </div>
-
+          <div class="d-none d-lg-block bg-white mt-3 w-100">
+            <div class="d-flex border-bottom align-items-center">
+              <ul class="d-flex lg-list p-0">
+                <li class="nav-item active">
+                  <a class="nav-link px-1 pl-2 border-right" href="#">U.S.</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link px-1 border-right" href="#">World</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link px-1 border-right" href="#">Business</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link px-1 border-right" href="#"
+                    >Tech & Science</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link px-1 border-right" href="#">Culture</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link px-1 border-right" href="#">Newsgeek</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link px-1 border-right" href="#">Sports</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link px-1 border-right" href="#">Health</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link px-1 border-right" href="#">The Debate</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link px-1 border-right" href="#">Vantage</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link px-1" href="#">Weather</a>
+                </li>
+              </ul>
+              <input class="lg-input" placeholder="Search" type="search" />
+              <i class="fas fa-search"></i>
+            </div>
+            <div class="d-flex">
+              <h3 class="mt-2 ml-2">Trending</h3>
+              <ul class="d-flex">
+                <li class="nav-item">
+                  <a
+                    class="trending-li nav-link d-flex justify-content-between"
+                    href="#"
+                    >Donald Trump</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="trending-li nav-link d-flex justify-content-between"
+                    href="#"
+                    >Joe Biden</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="trending-li nav-link d-flex justify-content-between"
+                    href="#"
+                    >China</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="trending-li nav-link d-flex justify-content-between"
+                    href="#"
+                    >Coronavirus</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="trending-li nav-link d-flex justify-content-between"
+                    href="#"
+                    >2020 Election</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
           <div
-            class="hide-div navbar-collapse justify-content-end"
+            class="hide-div navbar-collapse justify-content-end d-lg-none"
             id="navbarDiv"
           >
             <div class="nav-col-container">
@@ -212,6 +312,36 @@
             </div>
           </div>
         </nav>
+        <!--<nav class="d-none d-lg-block">
+          <div>
+            <div class="top-nav-div">
+              <div class="d-flex top-nav-left-div">
+                <img src="https://g.newsweek.com/img/weather/34.png" alt=" weather image">
+                <p>30º</p>
+                <p>New York, US <i class="fas fa-angle-right"></i></p>
+              </div>
+              <div class="top-nav-middle-div">
+                <img src="assets/images/Newsweek_Logo.svg.png" alt="newsweek logo">
+              </div>
+              <div class="d-flex top-nav-right-div">
+                <a class="cl-white" href="#">LOGIN</a>
+                <a class="nav-offer" href="#">SUBSCRIBE <i class="fas fa-angle-right"></i></a>
+              </div>
+            </div>
+            <div class="bottom-nav-div">
+              <div>
+                <ul>
+                
+                </ul>
+              </div>
+              <div>
+                <ul>
+
+                </ul>
+              </div>
+            </div>
+          </div>>
+        </nav> -->
       </header>
       <main>
         <div class="row position-relative">
